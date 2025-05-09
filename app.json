@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Boys Hairstyles fashion",
+    "slug": "boys_hairstyles_fashion",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/appicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./android/app/google-services.json",
+      "package": "com.boys.men.hairstles.haircut.styles.fashion",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/appicon.png", 
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
+    },
+    "plugins": [
+      "expo-notifications"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d3799ca6-37be-4dc4-85e6-2e44ddb64367"
+      }
+    }
+  }
+}
